@@ -1,0 +1,135 @@
+/* alert system   https://sweetalert.js.org/*/
+.swal-overlay {
+  z-index: 12220000;
+}
+.swal-overlay--show-modal {
+}
+.swal-button {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: #4962b3;
+  font-size: 12px;
+  border: 1px solid #3e549a;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  text-justify: center;
+  margin: 0 auto;
+}
+.swal-footer {
+  background-color: rgb(245, 248, 250);
+  margin-top: 32px;
+  border-top: 1px solid #e9eef1;
+  overflow: hidden;
+  text-align: center;
+}
+.swal-text {
+  background-color: #fefae3;
+  padding: 17px;
+  border: 1px solid #f0e1a1;
+  display: block;
+  margin: 22px;
+  text-align: center;
+  color: #61534e;
+}
+/* sidebar show of dashbaord */
+.page-wrapper .page-body-wrapper .page-sidebar .sidebar-user {
+  box-shadow: 3px 2px 7px -1px rgba(68, 102, 242, 0) !important;
+}
+/* nabvar z-index */
+.bg-dark {
+  z-index: 1111111;
+  background-color: #0ca8fd !important;
+}
+/* sidebar color */
+.page-wrapper .page-body-wrapper .page-sidebar {
+  background-color: #15a2ef;
+}
+.page-main-header .main-header-right svg line {
+  color: #15a2ef;
+}
+.page-main-header .main-header-right .nav-right ul li svg {
+  color: #15a2ef;
+}
+.page-wrapper
+  .page-body-wrapper
+  .page-header
+  .breadcrumb
+  .breadcrumb-item
+  a
+  svg {
+  color: #15a2ef;
+}
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+input[type="button"] {
+  width: 120px;
+  height: 60px;
+  margin-left: 35px;
+  display: block;
+  background-color: gray;
+  color: white;
+  border: none;
+  outline: none;
+}
+input[type="button"] {
+  outline: none;
+}
+input[type="button"]::-moz-focus-inner {
+  border: 0;
+}
+/* .MuiLinearProgress-barColorSecondary {
+  background-color: black;
+}
+.MuiLinearProgress-bar {
+  height: 10px;
+} */
+.pnlm-load-box {
+  z-index: -999;
+  opacity: 0;
+  display: none;
+}
+.carousel {
+  width: 100% !important;
+  position: fixed !important;
+  bottom: 0px !important;
+  left: 0px !important;
+}
+/* .brand-logo {
+} */
+.main-menu .navbar-header .navbar-brand {
+  margin-top: 1rem;
+}

@@ -1,0 +1,114 @@
+/* .BrainhubCarousel .BrainhubCarousel__trackContainer .BrainhubCarousel__track {
+  overflow-x: scroll !important;
+} */
+
+/* .p-left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+.p-left-side div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.p-right-side input {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.p-right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.p-right-side div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+} */
+.panorama-effects {
+  margin-bottom: 50px;
+}
+
+/* .setting-image {
+  font-size: 20px;
+  height: 12% !important;
+  width: 20% !important;
+  color: white;
+  background-color: rgb(45, 223, 54) !important;
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  transition: opacity 0.4s;
+} */
+/* .carousel-children div:hover .setting-image {
+  opacity: 1;
+  transition: opacity 0.4s;
+} */
+
+/* .sideOpen {
+  right: -500px !important;
+  transition: all 1s;
+}
+.SideClose {
+  right: 0 !important;
+  transition: all 1s;
+} */
+
+/* H6 {
+  color: red !important;
+  margin: 20px 0px 40px 0px;
+} */
+
+/* .sideBar-button {
+  position: absolute;
+  z-index: 200000;
+  top: 0px;
+  left: 0;
+  border-radius: 0;
+}
+ */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 7px;
+}
+::-webkit-scrollbar-button {
+  width: 5px;
+  height: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(27 27 27);
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #e1e1e1;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
